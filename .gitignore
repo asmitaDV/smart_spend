@@ -1,0 +1,22 @@
+cd F:\SmartSpend
+
+@"
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
